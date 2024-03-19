@@ -57,7 +57,7 @@ jobs:
           npm run build -- --colors
 
 
-  Test:
+  test:
     needs: install
     runs-on: ubuntu-latest
 
